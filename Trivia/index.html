@@ -1,28 +1,40 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trivia!</title>
-    <link ref="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
 
-    <head>
+    <div class="container">
+        <section>
+            <h2>Part 1: Multiple Choice</h2>
+            <hr>
+            <h3>Qual é o maior planeta do nosso sistema solar?</h3>
+            <div class="options">
+                <button class="choice">Marte</button>
+                <button class="choice">Saturno</button>
+                <button class="choice" data-correct="true">Júpiter</button>
+                <button class="choice">Vênus</button>
+            </div>
+            <p id="feedback1"></p>
+        </section>
 
-        <div><h1>Trivia!</h1></div>
-    
-    </head>
-    <main>
+        <section>
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>Em qual país é ilegal ter apenas um porquinho-da-índia?</h3>
+            <input type="text" id="free-answer" placeholder="Sua resposta...">
+            <button id="check-btn">Check Answer</button>
+            <p id="feedback2"></p>
+        </section>
+    </div>
 
-        <h2>Parte 1</h2>
-        <h3>Com quandos anos você aprendeu a falar ?</h3>
-    
-    </main>
-    <footer>
-
-       &#169 2026 João Guilherme.
-    
-    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
