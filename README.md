@@ -1,1 +1,1 @@
-# Trivia
+Projeto desenvolvido como parte dos exercícios práticos do curso CS50: Introduction to Computer Science of Harvard. O objetivo foi aplicar conceitos fundamentais de HTML5, CSS3 e JavaScript para criar uma página interativa de perguntas e respostas.
